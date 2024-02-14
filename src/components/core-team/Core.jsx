@@ -7,16 +7,10 @@ function Core() {
   const coreDetail = coreDetails.map((details) => {
     return (
       <div className="postn mx-6 my-4 flex flex-col ">
-        {/* <img
-          src={details.image}
-          className="rounded-full w-7/12 px-2 sm:11/12"
-        /> */}
         <motion.div
-          // className="box"
           className="rounded-full w-7/12 px-2 items-center justify-center sm:11/12"
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1}}
-          // animate={{  }}
           transition={{
             duration: 1,
             delay: 0.25,

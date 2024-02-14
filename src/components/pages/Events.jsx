@@ -9,7 +9,6 @@ export const Events = () => {
     <>
       <Navbar />
       <EventsPage />
-      {/* <PrevEvents /> */}
       <Footer/>
   </>
   )
