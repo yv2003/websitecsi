@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../navbar/Navbar";
-import Spons from "../Sponsor/Spons";
+import Spons from "../sponsor/Spons";
 import Footer from "../footer/Footer";
 
 export const Sponsors = () => {
