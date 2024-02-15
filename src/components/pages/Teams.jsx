@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "../navbar/Navbar";
 import Footer from "../footer/Footer";
-import Core from "../CORE-TEAM/Core";
+import Core from "../core-team/Core";
 
 export const Teams = () => {
   return (

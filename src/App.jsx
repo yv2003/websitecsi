@@ -1,5 +1,4 @@
-import React from 'react'
-// import { PreviousEvents } from '../src/components/pages/PrevEvents.jsx';
+import React from 'react';
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import {Teams, Home, Sponsors, Events, WComittee } from "./components/pages";
