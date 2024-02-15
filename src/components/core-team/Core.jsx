@@ -26,10 +26,10 @@ function Core() {
         <div className="underline underline-offset-4">{details.position}</div>
         <div className="social flex flex-row space-between">
           <a href={details.instagram}>
-            <img src="public/icons/instagram.svg" className="w-5 h-5 m-1" />
+            <img src="/icons/instagram.svg" className="w-5 h-5 m-1" />
           </a>
           <a href={details.linkedIn}>
-            <img src="public/icons/linkedin.svg" className="w-5 h-5 m-1" />
+            <img src="/icons/linkedin.svg" className="w-5 h-5 m-1" />
           </a>
           <p>{details.detail}</p>
         </div>
@@ -46,7 +46,7 @@ function Core() {
         <div className="flex flex-col items-center justify-center md:flex-row">
           <div className="flex flex-col align-center justify-center items-center my-10 mx-10 w-1/2 md:w-1/4 text-white border-2 border-stone-50 rounded-lg shadow-lg hover:shadow-gray-500">
             <img
-              src="public/faculty/ss.JPG"
+              src="/faculty/ss.JPG"
               className="image rounded-full w-1/2 m-5"
             />
             <h3 className="text-center font-4xl font-semibold ">
@@ -56,7 +56,7 @@ function Core() {
           </div>
           <div className="flex flex-col align-center justify-center items-center my-10 mx-10 w-1/2 md:w-1/4 text-white border-2 border-stone-50 rounded-lg shadow-lg hover:shadow-gray-500">
             <img
-              src="public/faculty/vs.JPG"
+              src="/faculty/vs.JPG"
               className="image rounded-full w-1/2 m-5"
             />
             <h3 className="text-center font-4xl font-semibold ">Prof. Vikas Singh</h3>
