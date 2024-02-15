@@ -24,15 +24,15 @@ function FindUS() {
           Thakur Campus, Kandivali East, Gate No:5, Mumbai: 400101
         </div><br/>
         <div className="flex flex-row items-center">
-          <img src="public/mail.svg" className="w-8 h-8 pr-2 "/>
+          <img src="/mail.svg" className="w-8 h-8 pr-2 "/>
           <span className="">officialcsitect@gmail.com</span>
         </div>                  
         <div className="flex flex-row">
-          <img src="public/call.svg" className="w-8 h-8 pr-2 "/>
+          <img src="/call.svg" className="w-8 h-8 pr-2 "/>
           <span className="pt-1.5 flex"><p className="font-semibold">Purvashi Shah</p>: 9552276964</span>
         </div>
         <div className="flex flex-row">
-          <img src="public/call.svg" className="w-8 h-8 pr-2 "/>
+          <img src="/call.svg" className="w-8 h-8 pr-2 "/>
           <span className="pt-1.5 flex"><p className="font-semibold">Yogesh Yadav</p>: 9820454730</span> 
         </div>
       </div>
