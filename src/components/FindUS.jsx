@@ -6,7 +6,7 @@ function FindUS() {
   return (
     <>
     <div className="flex flex-row mt-10 sm:mt-12 md:mt-16 xl:mt-20 justify-center "> 
-      <img src="public/pin.svg" className="w-8 h-8 md:w-12 md:h-12"/>
+      <img src="/pin.svg" className="w-8 h-8 md:w-12 md:h-12"/>
       <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white">Find Us</h1>
     </div>
     <div className="flex flex-col sm:flex-row py-6 justify-center align-middle mx-12 md:mx-16 lg:mx-20 xl:mx-24">

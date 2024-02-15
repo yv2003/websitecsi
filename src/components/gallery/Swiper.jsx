@@ -13,7 +13,7 @@ export default function CompanySwiper() {
         <span className="font-Inter text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center shadow-purple-400">GALLERY</span>
         <div className="flex justify-between relative mt-4 sm:mt-8">
           <div className="swiper-prev">
-            <img src="public/arrow-left-circle-svgrepo-com.svg" alt="prev-image-btn" className="absolute top-1/2 left-0 h-10 w-10 z-10 animate-pulse " />
+            <img src="/arrow-left-circle-svgrepo-com.svg" alt="prev-image-btn" className="absolute top-1/2 left-0 h-10 w-10 z-10 animate-pulse " />
           </div>
                 
           <Swiper
