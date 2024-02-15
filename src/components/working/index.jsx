@@ -19,10 +19,9 @@ function WC() {
           }}>
           <img
             src={details.image}
-            className="rounded-full h-[300px] w-[300px]"
+            className="lazy-image rounded-xl h-[300px] w-[300px]"
           />
         </motion.div>
-
         <div className="font-semibold pt-5 text-xl">{details.name}</div>
       </div>
     );
@@ -41,7 +40,7 @@ function WC() {
           }}>
           <img
             src={sedetails.image}
-            className="rounded-full h-[300px] w-[300px]"
+            className="rounded-xl h-[300px] w-[300px]"
           />
         </motion.div>
 
