@@ -19,7 +19,7 @@ function FindUS() {
           referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div className="flex flex-col text-white text-sm sm:text-base md:text-lg xl:text-xl  md:w-2/5">
-        <div className=""> 
+        <div className="pt-4"> 
           <span className="font-bold">Thakur College of Engineering and Technology, </span>
           Thakur Campus, Kandivali East, Gate No:5, Mumbai: 400101
         </div><br/>

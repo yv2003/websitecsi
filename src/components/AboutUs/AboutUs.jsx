@@ -6,7 +6,7 @@ function AboutUs() {
     <>
       <h1 className="text-center text-white font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-6 ">ABOUT US</h1>
       <div className=" w-auto mt-10  h-full mx-12 md:mx-16 lg:mx-20 xl:mx-24 flex flex-col-reverse md:flex-row align-center justify-center animate__animated animate__fadeIn text-white">
-        <div className="p-2 md:p-0 text-justify text-xs sm:text-lg md:text-xl xl:text-xl md:mr-10 md:w-1/2 lg:w-3/5 xl:leading-10">
+        <div className="p-2 md:p-0 text-justify text-lg sm:text-lg md:text-xl xl:text-xl md:mr-10 md:w-1/2 lg:w-3/5 xl:leading-10">
           CSI-TCET is the student branch of the Computer Society of India
           (CSI) at Thakur College of Engineering and Technology (TCET),
           Mumbai. The mission of CSI is to facilitate research, knowledge

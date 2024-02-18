@@ -9,7 +9,7 @@ function WC() {
     return (
       <div className="postn mx-6 my-4 flex flex-col ">
         <motion.div
-          className="rounded-full w-7/12 px-2 items-center justify-center sm:11/12"
+          className="rounded-xl w-7/12 px-2 items-center justify-center sm:11/12"
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1}}
           transition={{
@@ -30,7 +30,7 @@ function WC() {
     return (
       <div className="postn mx-6 my-4 flex flex-col ">
         <motion.div
-          className="rounded-full w-7/12 px-2 items-center justify-center sm:11/12"
+          className="rounded-xl w-7/12 px-2 items-center justify-center sm:11/12"
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1}}
           transition={{
@@ -63,7 +63,6 @@ function WC() {
         <div className="mt-8 mx-8 grid grid-cols-1 items-center justify-center sm:grid-cols-2 lg:grid-cols-3 gap-x-4 text-white">
           {SEDetail}
         </div>
-      
       </div>
     
   );
