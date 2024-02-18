@@ -3,20 +3,20 @@ export const te=[
       Timestamp: "9-18-2023 14:44:46",
       name: "Tanya Shah",
       Position: "TE Heads",
-      image: "/WC/TEEHEADS/Tanya-Shah.jpeg"
+      image: "/WC/TEEHEADS/Tanya-Shah.webp"
   },
   {
       Timestamp: "9-27-2023 12:52:28",
       name: "Yashasvi Vaidya",
       Position: "TE Heads",
-      image: "/WC/TEEHEADS/Yashasvi-Vaidya.jpeg"
+      image: "/WC/TEEHEADS/Yashasvi-Vaidya.webp"
     },
     
     {
       Timestamp: "9-18-2023 14:55:05",
       name: "Simran Yadav",
       Position: "TE Heads",
-      image: "/WC/TEEHEADS/Simran-yadav.jpeg"
+      image: "/WC/TEEHEADS/Simran-yadav.webp"
     },
     {
       Timestamp: "9-18-2023 15:03:14",
