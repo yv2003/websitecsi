@@ -63,9 +63,9 @@ const router = createBrowserRouter(
     // <Router>
     // <Routes>
     <>
-    <Route path="/home" element={<Home />} />
-      <Route path="/" element={<Layout />}>
-        
+    
+      <Route path="/home" element={<Layout />}>
+        <Route path="/home" element={<Home />} />
         {/* <Route path="/" element={<Home />} /> */}
         {/* <Route path="/events" element={<Events />} /> */}
         <Route path="/events" element={<EventsPage />} />
