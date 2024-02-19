@@ -1,8 +1,5 @@
 import React from "react";
 import Swiper from "../components/gallery/Swiper";
-// import Swiper from "../gallery/Swiper";
-// import Footer from "../components/footer/Footer";
-import Footer from "./Footer/Footer";
 // import FindUS from "../FindUS";
 import FindUS from "../components/FindUS";
 import { Navbar } from "../components/navbar/Navbar";
