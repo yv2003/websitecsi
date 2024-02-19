@@ -7,7 +7,7 @@ import { se } from "./wc";
 function WC() {
   const TEDetail = te.map((details) => {
     return (
-      <div className="postn mx-6 my-4 flex flex-col ">
+      <div className="postn mx-6 my-4 flex flex-col " key={details.name}>
         <motion.div
           className="rounded-xl w-7/12 px-2 items-center justify-center sm:11/12"
           initial={{ opacity: 0, scale: 0.5 }}
@@ -19,7 +19,7 @@ function WC() {
           }}>
           <img
             src={details.image}
-            className="lazy-image rounded-xl h-[300px] w-[300px]"
+            className=" rounded-xl h-[300px] w-[300px] md:h-[300px] sm:h-[200px]"
           />
         </motion.div>
         <div className="font-semibold pt-5 text-xl">{details.name}</div>
@@ -28,7 +28,7 @@ function WC() {
   });
   const SEDetail = se.map((sedetails) => {
     return (
-      <div className="postn mx-6 my-4 flex flex-col ">
+      <div className="postn mx-6 my-4 flex flex-col " key={sedetails.name}>
         <motion.div
           className="rounded-xl w-7/12 px-2 items-center justify-center sm:11/12"
           initial={{ opacity: 0, scale: 0.5 }}
@@ -40,7 +40,7 @@ function WC() {
           }}>
           <img
             src={sedetails.image}
-            className="rounded-xl h-[300px] w-[300px]"
+            className="rounded-xl h-[300px] w-[300px] md:h-[300px] sm:h-[200px]"
           />
         </motion.div>
 

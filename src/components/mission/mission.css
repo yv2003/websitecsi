@@ -22,7 +22,6 @@
   opacity: 1;
 }
 
-/* In your custom CSS */
 .gradient-dark-to-light {
   background: linear-gradient(to right, #800080, #FF00FF);
   z-index: -1;

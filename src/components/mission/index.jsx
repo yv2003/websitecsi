@@ -27,7 +27,7 @@ export default function Mission(){
                 <span className="text-center font-bold text-lg md:text-lg lg:text-2xl uppercase">{mission.title}</span>
                 <span className="text-center mt-2 md:mt-3 text-xs sm:text-sm lg:text-base xl:text-xl ">{mission.content}</span>
             </div>
-            <div className="absolute top-0 left-0 w-full h-full opacity-0 gradient-dark-to-light transform -translate-x-full group-hover:opacity-100 group-hover:transform translate-x-0 z-0"></div>
+            <div className="absolute top-0 left-0 w-full h-full opacity-0 gradient-dark-to-light transform  group-hover:opacity-100 group-hover:transform translate-x-0 z-0"></div>
         </div>    
         )
     })
