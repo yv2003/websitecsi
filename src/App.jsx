@@ -62,8 +62,10 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     // <Router>
     // <Routes>
+    <>
+    <Route path="/home" element={<Home />} />
       <Route path="/" element={<Layout />}>
-        <Route path="/home" element={<Home />} />
+        
         {/* <Route path="/" element={<Home />} /> */}
         {/* <Route path="/events" element={<Events />} /> */}
         <Route path="/events" element={<EventsPage />} />
@@ -73,8 +75,9 @@ const router = createBrowserRouter(
         <Route path="/teams" element={<Core />} />
         <Route path="/wc" element={<WComittee />} />
       </Route>
-      // </Routes>
-      // </Router>
+      {/* </Routes> */}
+       {/* </Router > */}
+      </>
   )
 );
 export default router;
