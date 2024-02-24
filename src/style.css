@@ -47,7 +47,7 @@ body {
     visibility: visible;
   }
   
-  /* Just for presentational purposes, please disregard in your own implementation */
+  
   .App {
     max-width: 100%;
     padding: 1em;
@@ -71,4 +71,3 @@ body {
   * {
     box-sizing: inherit;
   }
-/* animate homepage end   */
