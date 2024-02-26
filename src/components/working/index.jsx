@@ -51,13 +51,13 @@ function WC() {
   
   return (
       <div className="bg-[url('/csi-website.png')] bg-fixed bg-[#020005] pt-20">
-        <h1 className="text-center text-3xl m-5 p-5 text-white font-bold">
+        <h1 className="text-center text-3xl m-5 p-5 text-white font-bold underline underline-offset-2">
           The TE Team
         </h1>
         <div className="mt-8 mx-8 grid grid-cols-1 items-center justify-center sm:grid-cols-2 lg:grid-cols-3 gap-x-4 text-white">
           {TEDetail}
       </div>
-      <h1 className="text-center text-3xl m-5 p-5 text-white font-bold">
+      <h1 className="text-center text-3xl m-5 p-5 text-white font-bold underline underline-offset-2">
           The SE Team
         </h1>
         <div className="mt-8 mx-8 grid grid-cols-1 items-center justify-center sm:grid-cols-2 lg:grid-cols-3 gap-x-4 text-white">

@@ -188,21 +188,4 @@ export const se=[
     Position: 'Working Committee',
     image: '/WC/SEWC/Aayush-Kumar.jpg'
   },
-  {
-    Timestamp: '9-27-2023 15:26:00',
-    name: 'Pratik wagh',
-    Position: 'Working Committee',
-    image: '.'
-  },
-  {
-    Timestamp: '9-23-2023 22:38:38',
-    name: 'Isha Kotecha ',
-    image: 'https://example.com/image.jpg'
-  },
-  {
-    Timestamp: '9-18-2023 15:17:15',
-    name: 'Utsavanand Singh',
-    Position: 'Working Committee',
-    image: 'https://example.com/image.jpg'
-  },
 ]
