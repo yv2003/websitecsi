@@ -15,7 +15,7 @@ export const Home = () => {
         <Landing />
         <AboutUs/>
         <Mission />
-        <Swiper />
+{/*         <Swiper /> */}
         <FindUS />
         {/* <Footer /> */}
       </div>
